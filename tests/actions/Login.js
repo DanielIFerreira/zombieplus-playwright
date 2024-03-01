@@ -1,10 +1,16 @@
 const { expect } = require('@playwright/test');
 
 
-export class LoginPage {
+export class Login {
     constructor(page) {
         this.page = page
     }
+    async do(email, password, username) {
+        this.visit()
+        this.submit(email, password, username)
+        this.isLoggedIn(username)
+    }
+
     async visit(){
         await this.page.goto('http://localhost:3000/admin/login')
         const logForm = this.page.locator('.login-form')
@@ -19,16 +25,21 @@ export class LoginPage {
         await this.page.getByText('Entrar').click()
     }
 
-    async HaveText(message) {
-        const toast = this.page.locator('.toast')
-    
-            await expect(toast).toHaveText(message)
-            await expect(toast).not.toBeVisible({timeout: 6000})
-    }
-
     async alertHaveText(text) {
         const alert = this.page.locator('span[class$=alert]')
         await expect(alert).toHaveText(text)
     }
     
+    async isLoggedIn(username) {
+        //const logoutLink = this.page.locator('a[href="/logout"]')
+        //await expect(logoutLink).toBeVisible()
+        //aguarda todo o processo de requisição de rede 
+        //await this.page.waitForLoadState('networkidle')
+        //valida o link a pagina
+        //await expect(this.page).toHaveURL(/.*admin.*movies/)
+
+        const loggerdUser = this.page.locator('.logged-user')
+        await expect(loggerdUser).toHaveText(`Olá, ${username}`)
+    }
+
 }

@@ -6,15 +6,7 @@ export class Movies {
     constructor(page) {
         this.page = page
     }
-    async isLoggedIn() {
-        //const logoutLink = this.page.locator('a[href="/logout"]')
-        //await expect(logoutLink).toBeVisible()
-        //aguarda todo o processo de requisição de rede 
-        await this.page.waitForLoadState('networkidle')
-        //valida o link a pagina
-        await expect(this.page).toHaveURL(/.*admin.*movies/)
-    }
-
+    
     async goForm() {
         await this.page.locator('a[href$="register"]').click()
     }
@@ -45,7 +37,7 @@ export class Movies {
 
         await this.submit()
     }
-    
+
     async alertHaveText(target) {
         await expect(this.page.locator('.alert')).toHaveText(target)
     }
