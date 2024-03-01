@@ -1,0 +1,82 @@
+{
+  "a_noite_dos_mortos_vivos": {
+    "title": "A Noite dos Mortos-Vivos",
+    "overview": "Um grupo de pessoas tenta sobreviver a uma horda de zumbis enquanto buscam refúgio em uma casa isolada.",
+    "company": "Continental Distributing",
+    "release_year": 1968,
+    "featured": true,
+    "cover": "caminho/para/a/imagem/noite_dos_mortos_vivos.png"
+  },
+  "despertar_dos_mortos": {
+    "title": "Despertar dos Mortos",
+    "overview": "Um grupo de sobreviventes tenta escapar de um shopping center invadido por zumbis.",
+    "company": "United Film Distribution Company",
+    "release_year": 1978,
+    "featured": false,
+    "cover": "caminho/para/a/imagem/despertar_dos_mortos.png"
+  },
+  "exterminio": {
+    "title": "Extermínio",
+    "overview": "Um vírus infecta a população transformando as pessoas em zumbis. Um grupo tenta sobreviver em uma Londres devastada.",
+    "company": "Fox Searchlight Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "caminho/para/a/imagem/extermínio.png"
+  },
+  "shaun_of_the_dead": {
+    "title": "Shaun of the Dead",
+    "overview": "Um jovem desajeitado enfrenta um apocalipse zumbi enquanto tenta salvar sua namorada e sua mãe.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": true,
+    "cover": "caminho/para/a/imagem/shaun_of_the_dead.png"
+  },
+  "zumbilandia": {
+    "title": "Zumbilândia",
+    "overview": "Um grupo de sobreviventes se une para lutar contra zumbis em um mundo pós-apocalíptico enquanto tentam chegar a um parque de diversões.",
+    "company": "Columbia Pictures",
+    "release_year": 2009,
+    "featured": false,
+    "cover": "caminho/para/a/imagem/zumbilândia.png"
+  },
+  "create": {
+    "title": "Guerra Mundial Z",
+    "overview": "Um ex-investigador da ONU é chamado para ajudar a encontrar a fonte de uma infecção que ameaça aniquilar a humanidade.",
+    "company": "Paramount Pictures",
+    "release_year": 2013,
+    "featured": true,
+    "cover": "caminho/para/a/imagem/guerra_mundial_z.png"
+  },
+  "resident_evil": {
+    "title": "Resident Evil",
+    "overview": "Uma agente de segurança luta contra zumbis e outras criaturas mortais depois que um vírus escapa de um laboratório subterrâneo.",
+    "company": "Screen Gems",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "caminho/para/a/imagem/resident_evil.png"
+  },
+  "eu_sou_a_lenda": {
+    "title": "Eu Sou a Lenda",
+    "overview": "O último sobrevivente humano na cidade de Nova York luta para encontrar a cura para um vírus que transformou a população em criaturas semelhantes a zumbis.",
+    "company": "Warner Bros. Pictures",
+    "release_year": 2007,
+    "featured": true,
+    "cover": "caminho/para/a/imagem/eu_sou_a_lenda.png"
+  },
+  "28_dias_depois": {
+    "title": "28 Dias Depois",
+    "overview": "Um homem acorda de um coma para descobrir que um vírus devastou a população, transformando-os em zumbis raivosos.",
+    "company": "Fox Searchlight Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "caminho/para/a/imagem/28_dias_depois.png"
+  },
+  "madrugada_dos_mortos": {
+    "title": "Madrugada dos Mortos",
+    "overview": "Um grupo de pessoas fica preso em um shopping center enquanto zumbis perambulam do lado de fora.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": false,
+    "cover": "caminho/para/a/imagem/madrugada_dos_mortos.png"
+  }
+}
