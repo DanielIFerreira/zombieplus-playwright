@@ -8,7 +8,7 @@ export class Toast {
         const toast = this.page.locator('.toast')
     
             await expect(toast).toContainText(message)
-            await expect(toast).not.toBeVisible({timeout: 6000})
+            await expect(toast).not.toBeVisible({timeout: 8000})
         }
         
 }

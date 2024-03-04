@@ -45,7 +45,7 @@
     "company": "Paramount Pictures",
     "release_year": 2013,
     "featured": true,
-    "cover": "caminho/para/a/imagem/guerra_mundial_z.png"
+    "cover": "/covers/movies/wwz.png"
   },
   "resident_evil": {
     "title": "Resident Evil",
