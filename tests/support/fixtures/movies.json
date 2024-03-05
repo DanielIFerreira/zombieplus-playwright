@@ -47,13 +47,13 @@
     "featured": true,
     "cover": "/covers/movies/wwz.png"
   },
-  "resident_evil": {
+  "duplicate": {
     "title": "Resident Evil",
     "overview": "Uma agente de segurança luta contra zumbis e outras criaturas mortais depois que um vírus escapa de um laboratório subterrâneo.",
-    "company": "Screen Gems",
+    "company": "Columbia Pictures",
     "release_year": 2002,
     "featured": false,
-    "cover": "caminho/para/a/imagem/resident_evil.png"
+    "cover": "/covers/movies/resident-evil.jpg"
   },
   "eu_sou_a_lenda": {
     "title": "Eu Sou a Lenda",
