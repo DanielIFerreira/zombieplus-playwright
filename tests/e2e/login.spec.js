@@ -13,8 +13,8 @@ test('deve logar como administrador', async({page}) =>{
 test('não deve logar com senha incorreta', async({page}) =>{
     //await page.login.visit()
     await page.login.submit('admin@zombieplus.com', 'pwd123654')
-    const menssage = "Oops!Ocorreu um erro ao tentar efetuar o login. Por favor, verifique suas credenciais e tente novamente."
-    await page.toast.containText(menssage) 
+    const menssage = "Ocorreu um erro ao tentar efetuar o login. Por favor, verifique suas credenciais e tente novamente."
+    await page.popup.haveText(menssage) 
 })
 
 test('não deve logar quando o email é incorreto', async({page}) =>{

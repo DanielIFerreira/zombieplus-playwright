@@ -31,13 +31,13 @@
     "featured": true,
     "cover": "caminho/para/a/imagem/shaun_of_the_dead.png"
   },
-  "zumbilandia": {
+  "to_remove": {
     "title": "Zumbilândia",
     "overview": "Um grupo de sobreviventes se une para lutar contra zumbis em um mundo pós-apocalíptico enquanto tentam chegar a um parque de diversões.",
-    "company": "Columbia Pictures",
+    "company": "Universal Pictures",
     "release_year": 2009,
     "featured": false,
-    "cover": "caminho/para/a/imagem/zumbilândia.png"
+    "cover": "/covers/movies/zumbilândia.jpg"
   },
   "create": {
     "title": "Guerra Mundial Z",
@@ -61,7 +61,7 @@
     "company": "Warner Bros. Pictures",
     "release_year": 2007,
     "featured": true,
-    "cover": "caminho/para/a/imagem/eu_sou_a_lenda.png"
+    "cover": "/covers/movies/eu_sou_a_lenda.png"
   },
   "28_dias_depois": {
     "title": "28 Dias Depois",
