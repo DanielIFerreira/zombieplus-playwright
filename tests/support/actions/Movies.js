@@ -46,6 +46,18 @@ export class Movies {
         await this.submit()
     }
 
+    async search (target) {
+        await this.page.locator('input[placeholder="Busque pelo nome"]')
+            .fill(target)
+            
+        await this.page.click('button[type="submit"]')
+    }
+
+    async tableHave(content){
+        const rows = this.page.getByRole('row')
+        await expect(rows).toContainText(content)
+    }
+
     async alertHaveText(target) {
         await expect(this.page.locator('.alert')).toHaveText(target)
     }
